@@ -35,15 +35,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
-
-
-
-
-
-
-
-section, footer {
+}section, footer {
 	background: #fffcfc;
 }
 
@@ -62,14 +54,6 @@ a:focus{
 .container{
 	max-width: 1130px;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Header 		*/
@@ -184,14 +168,6 @@ header .social li{
 header .social li:first-child{
 	margin: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Hero section 		*/
@@ -356,14 +332,6 @@ a.app_link{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Featured on section 		*/
 
 .featured_on{
@@ -384,14 +352,6 @@ a.app_link{
 .featured_on li:first-child{
 	margin-left: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*		About section 		*/
@@ -483,14 +443,6 @@ a.app_link{
 }
 
 
-
-
-
-
-
-
-
-
 /*		App features 		*/
 
 .app_features{
@@ -527,15 +479,6 @@ a.app_link{
 .app_features .details:nth-child(3n+1){
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
 
 /*		Testimonials section 		*/
 
@@ -633,14 +576,6 @@ a.app_link{
 #tslider .owl-controls .owl-next:hover{
 	background-position: -33px 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Subscription section 		*/
@@ -743,14 +678,6 @@ a.app_link{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Footer 		*/
 
 footer{
@@ -777,14 +704,6 @@ footer .copyright{
 footer .copyright a{
 	color: #565555;
 }
-
-
-
-
-
-
-
-
 
 /*		Responsive CSS 		*/
 
