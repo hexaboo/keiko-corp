@@ -1,21 +1,5 @@
 $(document).ready(function () {
 
-	//Navigation menu scrollTo
-	$('header nav ul li a').click(function (event) {
-		event.preventDefault();
-		var section = $(this).attr('href');
-		var section_pos = $(section).position();
-		if (section_pos) {
-			console.log(section)
-			$(window).scrollTo({ top: section_pos.top, left: '0px' }, 1000);
-		}
-	});
-
-	$('.app_link').click(function (e) {
-		event.preventDefault();
-		$(window).scrollTo({ top: $("#hero").position().top, left: '0px' }, 1000);
-	});
-
 	//Show & Hide menu on mobile
 	$('.burger_icon').click(function () {
 		$('header nav').toggleClass('show');
@@ -35,19 +19,6 @@ $(document).ready(function () {
 
 	//parallax effect initialization
 	$('.hero').parallax("50%", 0.3);
-
-	//Nice scroll initialization
-	$("html").niceScroll({
-		scrollspeed: 50,
-		autohidemode: false,
-		cursorwidth: 8,
-		cursorborderradius: 8,
-		cursorborder: "0",
-		background: "rgba(48, 48, 48, .4)",
-		cursorcolor: '#1f1f1f',
-		zindex: 999
-	});
-
 
 	//Testimonials slider initialization
 	$("#tslider").owlCarousel({
@@ -94,7 +65,6 @@ $(document).ready(function () {
 	function processing(hide, show) {
 		$('#mc_submit i').removeClass(hide).addClass(show);
 	}
-
 
 	//Popup video
 	$('#play_video').click(function (e) {
